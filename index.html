@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Inicial | Delta Coffee's</title>
+        <link rel="stylesheet" href="assets/css/global.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__content">
+                <a class="header__logoLink--desktop" href="#!"><img class="header__logo--desktop" src="assets/img/logo-desktop.png" alt="Logo Delta Coffee's"></a>
+                <a class="header__logoLink--mobile" href="#!"><img class="header__logo--mobile" src="assets/img/logo-mobile.png" alt="Logo Delta Coffee's"></a>
+            
+                <div class="header__info">
+                    <a class="header__login" href="#!">
+                        <img src="assets/img/login.png" alt>
+                        <p>Login</p>
+                    </a>
+
+                    <a class="header__carrinho" href="#!">
+                        <img src="assets/img/carrinho.png" alt>
+                        <p>Carrinho</p>
+                    </a>
+                </div>
+
+                <button onclick="openMenu()" class="button-open" aria-label="Abrir menu lateral"><img src="assets/img/menu-open.png" alt></button>
+            </div>
+
+            <nav class="header__nav">
+                <ul class="header__lista">
+                    <li class="header__item"><a href="#!" class="header__link">Página Inicial</a></li>
+                    <li class="header__item"><a href="#!" class="header__link">Menu</a></li>
+                    <li class="header__item"><a href="#!" class="header__link">Produtos</a></li>
+                    <li class="header__item"><a href="#!" class="header__link">Fale Conosco</a></li>
+                    <li class="header__item"><a href="#!" class="header__link">Quem Somos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside class="menu">
+            <div class="menu__header">
+                <a class="menu__logoLink" href="#!"><img class="menu__logo" src="assets/img/logo-mobile.png" alt="Logo Delta Coffee's"></a>
+                <button onclick="closeMenu()" class="button-close" aria-label="Fechar menu lateral"><img src="assets/img/menu-close.png" alt></button>
+            </div>
+
+            <div class="menu__info">
+                <a class="menu__login" href="#!">
+                    <img src="assets/img/login.png" alt>
+                    <p>Login</p>
+                </a>
+
+                <a class="menu__carrinho" href="#!">
+                    <img src="assets/img/carrinho.png" alt>
+                    <p>Carrinho</p>
+                </a>
+            </div>
+
+            <nav class="menu__nav">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a href="#!" class="menu__link">Página Inicial</a></li>
+                    <li class="menu__item"><a href="#!" class="menu__link">Menu</a></li>
+                    <li class="menu__item"><a href="#!" class="menu__link">Produtos</a></li>
+                    <li class="menu__item"><a href="#!" class="menu__link">Fale Conosco</a></li>
+                    <li class="menu__item"><a href="#!" class="menu__link">Quem Somos</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="banner">
+            <img class="banner__gif" src="assets/img/Propaganda-Delta-Coffee's.gif" alt>
+        </section>
+
+        <main class="main">
+            <h1 class="main__title">Produtos</h1>
+            <input class="main__search" type="search" placeholder="Pesquisar...">
+
+            <div class="main__content">
+                <div class="main__produto">
+                    <a href="#!" class="main__produtoLink">
+                        <img class="main__produtoImg" src="assets/img/AgendaDeltaCoffee's.png" alt="Agenda Delta Coffee's">
+                        <h3 class="main__produtoName">Agenda Delta Coffee's</h3>
+                        <h2 class="main__produtoPrice">R$ 25,00</h2>
+                    </a>
+                </div>
+
+                <div class="main__produto">
+                    <a href="#!" class="main__produtoLink">
+                        <img class="main__produtoImg" src="assets/img/SacolaDeltaCoffee's.png" alt="Sacola Delta Coffee's">
+                        <h3 class="main__produtoName">Sacola Delta Coffee's</h3>
+                        <h2 class="main__produtoPrice">R$ 30,00</h2>
+                    </a>
+                </div>
+
+                <div class="main__produto">
+                    <a href="#!" class="main__produtoLink">
+                        <img class="main__produtoImg" src="assets/img/SqueezeDeltaCoffee's.png" alt="Squeeze Delta Coffee's">
+                        <h3 class="main__produtoName">Squeeze Delta Coffee's</h3>
+                        <h2 class="main__produtoPrice">R$ 50,00</h2>
+                    </a>
+                </div>
+
+                <div class="main__produto">
+                    <a href="#!" class="main__produtoLink">
+                        <img class="main__produtoImg" src="assets/img/CanetaDeltaCoffee's.png" alt="Caneta Delta Coffee's">
+                        <h3 class="main__produtoName">Caneta Delta Coffee's</h3>
+                        <h2 class="main__produtoPrice">R$ 20,00</h2>
+                    </a>
+                </div>
+
+                <div class="main__produto">
+                    <a href="#!" class="main__produtoLink">
+                        <img class="main__produtoImg" src="assets/img/CanecaDeltaCoffee's.png" alt="Caneca Delta Coffee's">
+                        <h3 class="main__produtoName">Caneca Delta Coffee's</h3>
+                        <h2 class="main__produtoPrice">R$ 35,00</h2>
+                    </a>
+                </div>
+
+                <div class="main__produto">
+                    <a href="#!" class="main__produtoLink">
+                        <img class="main__produtoImg" src="assets/img/BoneDeltaCoffee's.png" alt="Bone Delta Coffee's">
+                        <h3 class="main__produtoName">Boné Delta Coffee's</h3>
+                        <h2 class="main__produtoPrice">R$ 45,00</h2>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__institucional">
+                    <h2 class="footer__title--institucional">Institucional</h2>
+
+                    <ul class="footer__lista">
+                        <li class="footer__item"><a href="#!" class="footer__link">>> Dúvidas frequentes</a></li>
+                        <li class="footer__item"><a href="#!" class="footer__link">>> Tabela de medidas</a></li>
+                        <li class="footer__item"><a href="#!" class="footer__link">>> Trocas e devoluções</a></li>
+                        <li class="footer__item"><a href="#!" class="footer__link">>> Contato</a></li>
+                        <li class="footer__item"><a href="#!" class="footer__link">>> Redes sociais</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__pagamentos">
+                    <h2 class="footer__title--pagamentos">Pagamentos</h2>
+
+                    <img class="footer__pagamentosImg" src="assets/img/FormasDePagamento.png" alt="Formas de pagamento">
+                </div>
+            </div>
+
+            <p class="footer__copy">Copyright © by Delta Institution</p>
+        </footer>
+
+        <script src="assets/js/menu-lateral.js"></script>
+    </body>
+</html>

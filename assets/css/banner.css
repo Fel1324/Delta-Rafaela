@@ -1,0 +1,45 @@
+.banner{
+    width: 80%;
+    height: 85rem;
+    
+    margin-inline: auto;
+    padding-top: 8rem;
+    padding-bottom: 11rem;
+}
+
+.banner__gif{
+    vertical-align: top;
+
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1500px) {
+    .banner{
+        height: 75rem;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .banner{
+        height: 65rem;
+    }   
+}
+
+@media screen and (max-width: 1110px) {
+    .banner{
+        height: 60rem;
+    }   
+}
+
+@media screen and (max-width: 900px) {
+    .banner{
+        height: 55rem;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .banner{
+        display: none;
+    }   
+}

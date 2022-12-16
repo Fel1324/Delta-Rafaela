@@ -1,0 +1,98 @@
+.menu{
+    background-color: var(--menu-background-color);
+    
+    position: absolute;
+    top: 0;
+    left: -100vw;
+
+    padding-block: 1.8rem;
+    padding-inline: 3.5rem;
+
+    width: 100%;
+    height: 100vh;
+
+    transition: all 250ms;
+}
+
+.menu-ativo{
+    left: 0;
+
+    transition: all 250ms;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.menu__logo{
+    width: 10rem;
+}
+
+.button-close img{
+    width: 3.4rem;
+}
+
+.menu__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+
+.menu__login, .menu__carrinho{
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.menu__info img{
+    width: 3rem;
+}
+
+.menu__info p{
+    color: var(--default-text-color);
+    
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.menu__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.menu__link{
+    color: var(--nav-text-color);
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 425px) {
+    .menu__info{
+        gap: 5.8rem;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .menu__info{
+        flex-direction: column;
+        gap: 2rem;
+
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .menu{
+        padding-inline: 2.5rem;
+    }
+}

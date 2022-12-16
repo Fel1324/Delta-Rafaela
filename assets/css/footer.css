@@ -1,0 +1,154 @@
+.footer{
+    background-color: var(--footer-background-color);
+
+    padding-top: 2.4rem;
+    padding-bottom: 2rem;
+    padding-inline: 15rem;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title--institucional, .footer__title--pagamentos{
+    color: var(--default-text-color);
+
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.footer__title--institucional{
+    margin-bottom: 4rem;
+}
+
+.footer__title--pagamentos{
+    margin-bottom: 1.8rem;
+}
+
+.footer__lista{
+    margin-left: 4.4rem;
+}
+
+.footer__link{
+    color: var(--footer-text-color);
+
+    font-size: 2.8rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.footer__link:hover{
+    color: var(--dark-hover);
+
+    transition: all 200ms;
+}
+
+.footer__pagamentosImg{
+    vertical-align: top;
+
+    width: 60rem;
+}
+
+.footer__copy{
+    color: var(--copyright-color);
+
+    font-size: 3rem;
+    text-align: center;
+
+    margin-top: 6.2rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .footer__title--institucional, .footer__title--pagamentos{
+        font-size: 3.4rem;
+    }
+
+    .footer__link{
+        font-size: 2.2rem;
+    }
+
+    .footer__pagamentosImg{
+        width: 45rem;
+    }
+
+    .footer__copy{
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .footer{
+        padding-inline: 10rem;
+    }
+
+    .footer__copy{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .footer__title--institucional, .footer__title--pagamentos{
+        font-size: 2.6rem;
+    }
+
+    .footer__link{
+        font-size: 1.8rem;
+    }
+
+    .footer__pagamentosImg{
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        padding-inline: 5rem;
+    }
+
+    .footer__title--institucional, .footer__title--pagamentos{
+        font-size: 2.4rem;
+    }
+
+    .footer__link{
+        font-size: 1.6rem;
+    }
+
+    .footer__pagamentosImg{
+        width: 30rem;
+    }
+
+    .footer__copy{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer{
+        padding-inline: 2rem;
+    }
+
+    .footer__title--institucional{
+        margin-bottom: 2rem;
+    }
+
+    .footer__pagamentosImg{
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        padding-inline: 4rem;
+    }
+
+    .footer__content{
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .footer__lista{
+        margin-left: 2rem;
+    }
+}
