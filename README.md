@@ -58,12 +58,6 @@ Acesse o projeto clicando [aqui](https://fel1324.github.io/Delta-Rafaela/).
 
 <p class="finish">✔️ Projeto Finalizado</p>
 
-<style>
-    .finish{
-        color: green;
-    }
-</style>
-
 <br>
 
 <h2 id="proto">🖼️ Protótipo feito no Photoshop</h2>
